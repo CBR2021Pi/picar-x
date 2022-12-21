@@ -83,6 +83,7 @@ def cali_helper():
         # readkey
         key = readchar.readkey()
         key = key.lower()
+        print(key)
         # select the servo 
         if key in ('123'):
             servo_num = int(key)-1
